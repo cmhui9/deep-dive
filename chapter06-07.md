@@ -1,6 +1,6 @@
-### 06장 - 07장 정리
+# 06장 - 07장 정리
 
-##### 데이터 타입
+### 데이터 타입
 
 -   데이터 타입이란 값의 종류를 의미한다
     
@@ -19,39 +19,39 @@
         -   null 타입 (값이 없다는 것을 의도적으로 명시할 때 사용하는 값 - 사람이 넣는 값)
             
         -   심벌 타입
-            
-        -   객체타입 = 참조타입 (객체, 함수, 배열 등이 있으며 주소값을 갖는다)
-            
-            ```
-            
-            // 객체
-            const user = {
-                name: 'cmhui',
-                age: 19,
-                key: value, // 프로퍼티
-                hello: function() {
-                    console.log('안녕');
-                } // 프로퍼티에 함수가 들어가면 '메소드'
-            }
-            
-            // 객체의 프로퍼티 접근법
-            // dot notation
-            let userName = user.name;
-            console.log(userName);
-            
-            // bracket notation
-            let userAge = user['age'];
-            console.log(userAge);
-            
-            
-            ```
+        
+    -   객체타입 = 참조타입 (객체, 함수, 배열 등이 있으며 주소값을 갖는다)
+        
+        ```
+        
+        // 객체
+        const user = {
+            name: 'cmhui',
+            age: 19,
+            key: value, // 프로퍼티
+            hello: function() {
+                console.log('안녕');
+            } // 프로퍼티에 함수가 들어가면 '메소드'
+        }
+        
+        // 객체의 프로퍼티 접근법
+        // dot notation
+        let userName = user.name;
+        console.log(userName);
+        
+        // bracket notation
+        let userAge = user['age'];
+        console.log(userAge);
+        
+        
+        ```
         
 -   자바스크립트 변수는 할당에 의해 타입이 결정되고 재할당에 의해 타입은 언제든지 변할 수 있다. 이런 특징을 **동적타이핑** 이라 한다
     
 -   동적타이핑과 반대되는 **정적타입 언어**는 데이터 타입을 사전에 선언해야 하는 C나 자바 등이 있다
     
 
-##### 연산자
+### 연산자
 
 -   연산자 종류
     
